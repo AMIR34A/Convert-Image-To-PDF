@@ -25,7 +25,6 @@ namespace ConvertImageToPDF
             openFile.Title = "Choose Files";
             openFile.Filter = "Only Image Format|*.jpeg;*.png;*.jpg";
             openFile.Multiselect = true;
-            openFile.FilterIndex = 4;
             var result = openFile.ShowDialog();
             if (result == DialogResult.OK)
             {
